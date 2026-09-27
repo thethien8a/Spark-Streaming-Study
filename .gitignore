@@ -1,0 +1,275 @@
+.serena/
+
+# ==============================
+# Spark-Specific
+# ==============================
+checkpoint/
+cache/
+spark-tests.log
+streaming-tests.log
+unit-tests.log
+*.checkpoint
+metastore_db/
+derby.log
+spark-warehouse/
+
+# ==============================
+# Java/Scala Build Artifacts
+# ==============================
+*.class
+*.jar
+*.war
+*.ear
+target/
+project/target/
+project/project/
+project/boot/
+project/plugins/project/
+lib_managed/
+src_managed/
+build/
+dist/
+out/
+bin/
+.cache
+
+# ==============================
+# SBT Specific
+# ==============================
+.bloop/
+.metals/
+.metals.sbt
+.scala-build/
+.bsp/
+.scala_dependencies
+.sbtserver
+project/build/target/
+project/plugins/lib_managed/
+project/plugins/target/
+metals.sbt
+
+# ==============================
+# Maven Specific
+# ==============================
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/
+mvnw
+mvnw.cmd
+
+# ==============================
+# Gradle Specific
+# ==============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==============================
+# IDE Files
+# ==============================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/misc.xml
+.idea/**/deployment.xml
+.idea/**/compiler.xml
+.idea/**/encodings.xml
+.idea/**/vcs.xml
+.idea/**/uiDesigner.xml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Eclipse/NetBeans
+.ensime
+.ensime_cache/
+.ensime_lucene
+
+# ==============================
+# Log Files
+# ==============================
+*.log
+logs/
+log/
+
+# ==============================
+# OS-Specific Files
+# ==============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.nfs*
+.directory
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+*#*#
+*.bak
+*.backup
+.cache-main
+.history
+
+# ==============================
+# Python/PySpark (if applicable)
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pytest_cache/
+
+# ==============================
+# Security and Configuration
+# ==============================
+*.pem
+*.key
+*.crt
+*.keystore
+*.jks
+*.p12
+*.pfx
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+*.properties.local
+conf/*.properties
+conf/*.sh
+conf/*.conf
+conf/*.cmd
+conf/slaves
+conf/java-opts
+
+# ==============================
+# Documentation and Generated
+# ==============================
+docs/_site/
+docs/_generated/
+docs/api/
+docs/.local_ruby_bundle
+docs/.jekyll-metadata
+docs/.jekyll-cache
+site/
+
+# ==============================
+# JVM and Testing
+# ==============================
+hs_err_pid*
+replay_pid*
+java_pid*
+jstack-*.log
+jmap-*.log
+heapdump.hprof
+R-unit-tests.log
+R/unit-tests.out
+R/cran-check.out
+R/pkg/vignettes/*.html
+R/pkg/tests/fulltests/*.pdf
+
+# ==============================
+# Package Managers
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
